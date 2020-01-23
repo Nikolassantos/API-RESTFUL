@@ -31,7 +31,11 @@ exports.buscarTodos = (request , response , next) => {
   spoiler.findall({ limit: limite, offset: pagina })
   .then(spoilers => {
     response.send(spoilers);
+<<<<<<< HEAD
   })
+=======
+  })
+>>>>>>> 5ac55c45ede045326d930528dd4709438e1ab8f8
 }
 exports.criar = (request, response, next ) => {
   const titulo = request.body.titulo
