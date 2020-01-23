@@ -30,3 +30,5 @@ const Spoiler = sequelize.define('spoiler', {
     }
   }
 });
+
+module.exports = Spoiler;
